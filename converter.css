@@ -1,0 +1,134 @@
+:root {
+    background-color: aliceblue;
+}
+
+/* s */
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    padding: 50px;
+   background-image: url('/img/pic.jpeg');
+   background-repeat: no-repeat;
+   background-size: auto;
+
+
+}
+
+.switcher {
+    width: 7% !important;
+    /* height: 53%;
+    background-color: white;
+    border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.switch-currencies i {
+    font-size: 40px;
+   margin-top: 48px;
+
+  }
+  
+
+.form-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.switch-currencies {
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+}
+
+.form-row {
+    width: 80%;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    height: 76%;
+    background-color: wheat;
+
+    border-radius: 15px;
+}
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: transparent !important;
+    border: transparent !important;
+  }
+  
+  .btn-outline-primary {
+    border: transparent !important;
+  }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.input-group {
+    background-color: white;
+    border-radius: 7px;
+}
+
+.form-control {
+    border: none !important;
+}
+.label-text{
+    font-size: 24px;
+    margin-bottom: 3%;
+    font-family: 'Maven pro';
+    font-weight: 700;
+}
+.input-group-append {
+    display: flex;
+    justify-content: center;
+    border: none !important;
+    width: 60%;
+    align-items: flex-end;
+   
+}
+
+.custom-select {
+    border: none !important;
+    font-size: 16px;
+    width: 40%;
+    padding: 20px;
+}
+.custom-select:focus option {
+    background-color: #f0f0f0;
+  }
+  .custom-select:hover option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+
+@media (max-width: 576px) {
+    #hero {
+        height: auto;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .form-group.text-center {
+        text-align: center;
+    }
+}
+
+/* select flag */
