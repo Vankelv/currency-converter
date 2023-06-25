@@ -8,9 +8,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 100vh;
     padding: 50px;
-   background-image: url('/img/pic.jpeg');
+   background-image: url('./img/pic.jpeg');
    background-repeat: no-repeat;
    background-size: auto;
 
@@ -18,21 +18,31 @@
 }
 
 .switcher {
-    width: 7% !important;
-    /* height: 53%;
+    width: 50px !important;
+ height: 50px;
     background-color: white;
-    border-radius: 50%; */
+    border-radius: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
+    align-items: center;
+    justify-content: center;
 }
 .switch-currencies i {
     font-size: 40px;
    margin-top: 48px;
 
   }
-  
+  .trs-btn{
+    border: 0px;
+    background: #8313f3;
+    color: white;
+    font-size: 28px;
+    width: 30% !important;
+    border-radius: 7px;
+    padding: 10px;
 
+  }
 .form-row {
     display: flex;
     align-items: center;
